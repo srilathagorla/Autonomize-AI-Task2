@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  font-family: 'Roboto';
+  background-color: white;
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  border: 0;
+  flex-wrap: wrap;
+  margin-left:30px;
+  background-color:white;
+}
+.product {
+  border: 0;
+  height: 210px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: white;
+  margin-bottom:25px;
+  padding:10px;
 }
-
-.App-link {
-  color: #61dafb;
+.img {
+  height: 100px;
+  width: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+}
+.para1{
+    color:red;
+    font-weight:bold;
+    font-size:15px;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p4{
+    color:blue;
+    font-size:18px;
+    font-weight:bold;
+}
+.p3{
+    color:red;
+    font-size:14px;
+    margin-left:80px;
+    margin-right:80px;
+    font-weight:500;
+}
+.p5{
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+}
+.h2{
+    color:black;
+}
+.img1{
+    height:280px;
+    width:300px;
 }
